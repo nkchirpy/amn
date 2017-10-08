@@ -1,0 +1,18 @@
+body {
+  background-color: black;
+}
+
+.jumbotron {
+
+  margin-top: 5rem;
+
+}
+
+nav {
+  border-radius: 1.5rem;
+  font-family: 'Playfair Display', serif;
+  font-family: 'Rye', cursive;
+  font-family: 'Crimson Text', serif;
+  margin-left: 7.2rem;
+  margin-right: 7.2rem;
+}
