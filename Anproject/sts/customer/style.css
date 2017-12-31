@@ -1,18 +1,369 @@
-body {
-  background-color: black;
-}
-
-.jumbotron {
-
-  margin-top: 5rem;
-
-}
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400');
+@import url('https://fonts.googleapis.com/css?family=Yantramanav:100');
+/* base.html css */
 
 nav {
-  border-radius: 1.5rem;
-  font-family: 'Playfair Display', serif;
-  font-family: 'Rye', cursive;
-  font-family: 'Crimson Text', serif;
-  margin-left: 7.2rem;
-  margin-right: 7.2rem;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+	height: auto;
+
+}
+
+
+.navbar-brand:hover {
+    opacity: 0.6;
+    filter: alpha(opacity=100); /* For IE8 and earlier */
+}
+
+.carousel {
+	margin-top: 4.1rem;
+}
+
+.muted_label {
+	color: white;
+}
+
+#footer-main {
+	font-family: 'Montserrat',sans-serif;
+	bottom: 0px;
+	width:100%;
+	color: #737373;
+  font-size: 0.9rem;
+	padding: 4rem;
+	background: #0D0D0D;
+}
+
+#footer-main a {
+		font-family: "Ubuntu", sans-serif;
+		font-size: 100%;
+		font-weight: bold;
+    text-decoration: none;
+		color: #737373;
+}
+.appdash-title {
+	font-family: 'Yantramanav', sans-serif;
+	font-size: 2rem;
+	text-align: left;
+}
+
+.appdash {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+
+}
+
+
+
+/* #footer-main a:hover {
+    color:#e0c71f;
+}
+/*.socialmedia{
+	text-align: right;
+}*/
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-li:hover {
+     color: #007bb5;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+ #social-gi:hover {
+     color: #767676;
+ }
+#social-map:hover {
+	color:#4a80f5;
+}
+
+
+
+
+/*index.html*/
+.index-page-bg {
+
+    background: linear-gradient(black, rgba(0,0,0,0.8));
+
+		padding: 2rem;
+
+}*/
+/*.customer-relationship {
+	background-color: rgba(37,83,187, 1) !important;
+}*/
+
+#relationship {
+
+	font-family: 'Yantramanav',sans-serif;
+	margin-top: 5rem;
+  padding: 2rem;
+
+}
+
+.lead {
+	color: #737373;
+}
+.card-text {
+		font-family: 'Yantramanav',sans-serif;
+     font-weight: bold;
+     color: #737373;
+}
+
+.carousel-caption {
+	color: #F5F5F5;
+	bottom: auto;
+	top: 50%;
+	transform: translateY(-50%);
+	font-family: 'ubuntu', sans-serif;
+
+}
+
+
+
+#responsive {
+	font-family: 'ubuntu', sans-serif;
+	color: #737373;
+	padding: 0.5rem;
+
+}
+.response-pad {
+    padding: 0.5rem;
+}
+#Hosting{
+  padding: 0.5rem;
+	color: #737373;
+}
+#solution {
+    color: #737373;
+}
+.anime-start-1 {
+	opacity: 0;
+	transform: translate3d(-100px, 0, 0);
+	transition: .3s;
+}
+
+.anime-end-1 {
+	opacity: 1;
+	transform: translate3d(0, 0, 0);
+}
+
+
+/*about_us.html css*/
+
+/*#about-page-bg {
+    background: linear-gradient(to right, black, #1a2127);
+
+}*/
+
+
+#statements {
+	margin-top: 4.1rem;
+	margin-bottom: 2rem;
+}
+
+.lead {
+	font-family: "Ubuntu", sans-serif;
+}
+
+.heading {
+	font-family: "Ubuntu", sans-serif;
+}
+.title {
+	font-family: "Ubuntu", sans-serif;
+}
+
+.card-title {
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+}
+
+.card-text {
+	text-align: center;
+	font-family: "Ubuntu", sans-serif;
+}
+
+
+/* services.html css*/
+
+#service-page-top {
+
+
+}
+
+.ourservices {
+	padding-top: 5rem;
+	color: #FF6347;
+	text-align: center;
+	font-family: 'Yantramanav',sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+.ourservices1 {
+	color: #FFF8DC;
+	text-align: center;
+	font-family: 'Yantramanav',sans-serif;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+#service-page-bg {
+	background: linear-gradient(black, rgba(0,0,0,0.8));
+	/*background-color: rgba(0,0,0,0.8);*/
+}
+
+.shadow {
+
+	  content:"";
+   z-index:-1;
+   -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+   -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+   box-shadow:0 0 20px rgba(0,0,0,0.8);
+   -moz-border-radius:100px / 10px;
+   border-radius:100px / 10px;
+}
+/*.service-img-align {
+	margin-left: 4rem;
+	margin-right: 3rem;
+}*/
+
+.services-title {
+	font-family: "Ubuntu", sans-serif;
+	font-size: 2rem;
+	font-weight: ;
+	text-align: center;
+	color: #737373;
+}
+
+.for-margin-bootom {
+	margin-bottom: 2rem;
+}
+/* contact_us.html css*/
+/*yellow #e0c71f
+blue #2553bb*/
+
+.contact-text {
+	font-family: 'Yantramanav',sans-serif;
+	font-size: 2rem;
+	color: #00E5EE;
+}
+
+.contact_jumbotron {
+	background-color: rgba(0,0,0, 1) !important;
+	color: #737373;
+	margin-top: 7rem;
+	font-family: "Ubuntu", sans-serif;
+	font-size: 100%;
+	font-weight: bold;
+}
+
+#form-name {
+	border-color: #737373;
+}
+
+#form-email {
+	border-color: #737373;
+}
+
+#form-organize {
+	border-color: #737373;
+}
+
+#form-contact {
+	border-color: #737373;
+}
+
+#form-comments {
+	border-color: #737373;
+}
+
+#map {
+    height: 350px;
+    width: 100%;
+		margin-bottom: 1rem;
+}
+
+
+
+
+.thumb img {
+	display: block; width: 100%; height: 100%;
+	/*double layered BG for lighting effect
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+		url("http://thecodeplayer.com/u/m/i1.png");
+	disabling the translucent black bg on the main image
+	background-size: 0, cover;
+	/*3d space for children
+	transform-style: preserve-3d;
+	transition: all 0.5s;*/
+}
+.thumb:hover img {transform: rotateX(80deg); transform-origin: bottom;}
+/*bottom surface */
+.thumb img:after {
+	/*36px high element positioned at the bottom of the image*/
+	content: ''; position: absolute; left: 0; bottom: 0;
+	width: 100%; height: 36px;
+	/*inherit the main BG*/
+	background: inherit; background-size: cover, cover;
+	/*draw the BG bottom up*/
+	background-position: bottom;
+	/*rotate the surface 90deg on the bottom axis*/
+	transform: rotateX(90deg); transform-origin: bottom;
+}
+/*label style*/
+.thumb img span {
+	color: white; text-transform: uppercase;
+	position: absolute; top: 100%; left: 0; width: 100%;
+	font: bold 12px/36px Montserrat; text-align: center;
+	/*the rotation is a bit less than the bottom surface to avoid flickering*/
+	transform: rotateX(-89.99deg); transform-origin: top;
+	z-index: 1;
+}
+/*shadow*/
+.thumb img:before {
+	content: ''; position: absolute; top: 0; left: 0;
+	width: 100%; height: 100%;
+	background: rgba(0, 0, 0, 0.5);
+	box-shadow: 0 0 100px 50px rgba(0, 0, 0, 0.5);
+	transition: all 0.5s;
+	/*by default the shadow will be almost flat, very transparent, scaled down with a large blur*/
+	opacity: 0.15;
+	transform: rotateX(95deg) translateZ(-80px) scale(0.75);
+	transform-origin: bottom;
+}
+.thumb:hover img:before {
+	opacity: 1;
+	/*blurred effect using box shadow as filter: blur is not supported in all browsers*/
+	box-shadow: 0 0 25px 25px rgba(0, 0, 0, 0.5);
+	/*pushing the shadow down and scaling it down to size*/
+	transform: rotateX(0) translateZ(-60px) scale(0.85);
 }

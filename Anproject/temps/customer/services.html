@@ -1,0 +1,96 @@
+{% extends "customer/base.html" %}
+{% load staticfiles %}
+{% block title %}Services{% endblock %}
+
+{% block body_block %}
+
+<section id="service-page-bg">
+<section id="service-page-top">
+  <div class="container">
+
+            <section class="os-animation" data-os-animation="zoomIn" data-os-animation-delay="0s">
+
+                <!--  <img class="img-fluid" src="{% static 'img/tra.png' %}" alt="joker"> -->
+                  <p class="ourservices">Transform your Imaginations into Real with AppDash</p>
+
+            </section>
+  </div>
+</section>
+
+
+<div class="container-fluid">
+
+          <section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay="0s">
+
+            <p class="ourservices1">Our Services</h1>
+
+          </section>
+</div>
+
+<div class="container service-img-align">
+  <div class="row">
+    <div class="col-lg-6">
+          <section class="os-animation" data-os-animation="fadeInLeft" data-os-animation-delay="0s">
+              <h1 class="services-title">Android Development</h1>
+                <img class="img-fluid shadow" src="{% static 'img/android.png' %}" alt="joker">
+          </section>
+    </div>
+    <div class="col-lg-6">
+          <section class="os-animation" data-os-animation="fadeInRight" data-os-animation-delay=".1s">
+            <h1 class="services-title">IOS Development</h1>
+              <img class="img-fluid shadow" src="{% static 'img/ios.png' %}" alt="joker">
+          </section>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div class="container service-img-align">
+  <div class="row">
+    <div class="col-lg-6">
+          <section class="os-animation" data-os-animation="bounceInDown" data-os-animation-delay="0s">
+              <h1 class="services-title">Website Development</h1>
+                <img class="img-fluid shadow" src="{% static 'img/web_apps.png' %}" alt="joker">
+          </section>
+    </div>
+    <div class="col-lg-6">
+          <section class="os-animation" data-os-animation="bounceInUp" data-os-animation-delay=".1s">
+            <h1 class="services-title">Mobile and PC Games</h1>
+              <img class="img-fluid shadow" src="{% static 'img/game_devs.png' %}" alt="joker">
+          </section>
+    </div>
+  </div>
+</div>
+
+<div class="container service-img-align">
+  <div class="row">
+    <div class="col-lg-6">
+          <section class="os-animation" data-os-animation="zoomInLeft" data-os-animation-delay="0s">
+              <h1 class="services-title">Designing Support</h1>
+                <img class="img-fluid shadow" src="{% static 'img/all_design.png' %}" alt="joker">
+          </section>
+    </div>
+    <div class="col-lg-6 for-margin-bootom">
+          <section class="os-animation" data-os-animation="zoomInRight" data-os-animation-delay=".1s">
+            <h1 class="services-title">Hosting Services</h1>
+              <img class="img-fluid shadow" src="{% static 'img/hosting_service.png' %}" alt="joker">
+          </section>
+    </div>
+  </div>
+</div>
+
+
+</section>
+
+
+
+  <!--bootstrap -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+  <script src="{% static 'customer/js/myjs.js' %}" charset="utf-8"></script>
+  <script src="{% static 'customer/js/animate-scroll.js' %}" charset="utf-8"></script>
+
+	{% endblock %}

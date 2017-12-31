@@ -1,0 +1,53 @@
+{% extends "customer/base.html" %}
+{% load staticfiles %}
+{% block title %}About Us{% endblock %}
+
+
+{% block body_block %}
+
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+      <div class="carousel-item active">
+          <img class="d-block w-100" src="{% static 'img/rdesign.jpg' %}" alt="First slide">
+      </div>
+  </div>
+</div>
+
+
+  <section id="statements">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+            <div class="card border-dark" style="width: 20rem;">
+               <img src="{% static 'img/vision.jpg' %}" alt="Card image cap">
+                  <div class="card-body">
+                      <h4 class="card-title">Vision</h4>
+                      <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+                  </div>
+            </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="card border-dark" style="width: 20rem;">
+              <img class="card-img-top" src="{% static 'img/quality.jpg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Quality Policy</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="card border-dark" style="width: 20rem;">
+             <img class="card-img-top" src="{% static 'img/mission.jpg' %}" alt="Card image cap">
+            <div class="card-body">
+              <h4 class="card-title">Mission</h4>
+              <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+{% endblock %}
